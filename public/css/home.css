@@ -1,0 +1,130 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+.bosluk {
+    margin-top: 50px;
+}
+
+.divs {
+    background-color: white;
+    margin: 5px auto; /* Ortalamak için auto kullanıldı */
+    border: 2px solid #ff6b6b;
+    border-radius: 15px;
+    height: 200px;
+    width: 90%; /* Varsayılan genişlik mobil cihazlara uyumlu olacak şekilde ayarlandı */
+    max-width: 800px; /* Daha büyük ekranlar için maksimum genişlik ayarlandı */
+    padding: 10px;
+    position: relative;
+}
+
+.divs:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-color: #ff6b6b;
+}
+
+h1 {
+    margin-left: 400px;
+}
+
+h2, h3, h4, h5, label {
+    margin-left: 404px;
+}
+
+.main_images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover; /* Oran koruyarak kutuya sığdırır */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.update_img {
+    color: black;
+    margin-left: 1030px;
+
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+.footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 1420px) {
+    .update_img {
+        margin-left: 850px; /* 1420px altı için konum */
+    }
+}
+
+@media (max-width: 1024px) {
+    .update_img {
+        margin-left: 650px; /* Orta büyüklükteki ekranlar için küçültme */
+        font-size: 16px; /* Orta boyutlu ekranlar için font boyutu */
+    }
+}
+/* Medya Sorguları */
+@media (max-width: 768px) {
+    .divs {
+        flex-direction: column; /* Mobil cihazlarda daha iyi bir düzenleme için */
+        height: auto; /* Yükseklik otomatik ayarlanır */
+    }
+
+    .main_images {
+        position: relative;
+        width: 100%; /* Resim tam genişlikte olur */
+        height: auto; /* Resmin yüksekliği oranlanır */
+        border-radius: 15px 15px 0 0; /* Köşe yuvarlatma düzenlendi */
+    }
+
+    .update_img {
+        margin-left: 580px;
+        font-size: 14px; /* Daha küçük font boyutu */
+    }
+
+    h1, h2, h3, h4, h5, label {
+        text-align: center;
+        margin: 15px 0;
+    }
+}
+@media (max-width: 694px) {
+    .update_img {
+        margin-left: 500px;
+        font-size: 14px; /* Daha küçük font boyutu */
+    }
+}
+@media (max-width: 605px) {
+    .update_img {
+        margin-left: 390px;
+        font-size: 14px; /* Daha küçük font boyutu */
+    }
+}
+
+@media (max-width: 480px) {
+    .divs {
+        width: 95%; /* Daha küçük ekranlar için genişlik azaltıldı */
+    }
+    .update_img {
+        margin-left: 79%; /* Ekranın ortasında yer alması için */
+        transform: translateX(-50%); /* Tam ortalamak için */
+        font-size: 14px; /* Daha küçük font boyutu */
+    }
+    .footer {
+        font-size: 12px; /* Daha küçük ekranlarda font boyutu azaltıldı */
+    }
+}

@@ -1,0 +1,197 @@
+
+body{
+    background: linear-gradient(180deg, #ff9a9e, #ff9a9e);
+
+    .custom-navbar {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid #fad0c4;
+        padding: 10px 20px;
+    }
+    
+    .custom-navbar .navbar-brand {
+        font-weight: bold;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .custom-navbar .navbar-nav .nav-link {
+        color: white;
+        font-size: 1rem;
+        margin-right: 10px;
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .custom-navbar .navbar-nav .nav-link:hover {
+        color: #ff6b6b;
+        transform: scale(1.1);
+    }
+    
+    .custom-navbar .dropdown-menu {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .custom-navbar .dropdown-item {
+        color: #333;
+        transition: background-color 0.3s ease;
+    }
+    
+    .custom-navbar .dropdown-item:hover {
+        background-color: #ff9a9e;
+        color: white;
+    }
+    
+    .search-box {
+        border: none;
+        border-radius: 20px;
+        padding: 5px 15px;
+        font-size: 0.9rem;
+        margin-right: 10px;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .search-box:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(255, 107, 107, 0.8);
+    }
+    
+    .btn-search {
+        background-color: #ff6b6b;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 5px 15px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .btn-search:hover {
+        background-color: #ff4c4c;
+        transform: scale(1.1);
+    }
+    
+    .pagination .active .page-link {
+        background-color: #ff6b6b;
+        border-color: #ff6b6b;
+        color: white;
+        font-weight: bold;
+        pointer-events: none;
+    }
+    
+    .pagination .page-link:hover {
+        color: white;
+        background-color: #ff9a9e;
+        border-color: #ff6b6b;
+        transform: scale(1.1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .pagination .page-link {
+        color: #ff6b6b;
+        background-color: #ffffff;
+    }
+    
+    .footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 14px;
+        color: #777;
+    }
+    
+    .footer a {
+        color: #ff6b6b;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Responsive Navbar */
+    @media (max-width: 992px) {
+        .navbar-toggler .fas {
+            color: white; /* İkonu beyaz yapar */
+            font-size: 1.5rem; /* İsteğe bağlı: İkon boyutunu büyütmek/küçültmek için */
+        }
+        .custom-navbar .navbar-nav .nav-link {
+            font-size: 0.95rem;
+            margin-right: 8px;
+        }
+    
+        .custom-navbar .navbar-brand {
+            font-size: 1.3rem; /* Orta büyüklükte ekranlar için */
+        }
+    
+        .custom-navbar .search-box {
+            width: 80%; /* Daha küçük ekranlarda biraz daha dar olacak */
+            margin-right: 5px;
+        }
+    
+        .custom-navbar .btn-search {
+            width: 80%;
+        }
+    }
+    
+    /* Small screens */
+    @media (max-width: 768px) {
+        .custom-navbar {
+            padding: 10px;
+        }
+    
+        .custom-navbar .navbar-nav {
+            flex-direction: column;
+            text-align: center;
+            margin-top: 10px;
+        }
+    
+        .custom-navbar .nav-link {
+            margin-right: 0;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+    
+        .custom-navbar .search-box {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    
+        .custom-navbar .btn-search {
+            width: 100%;
+        }
+    }
+    
+    /* Extra small screens */
+    @media (max-width: 480px) {
+        .custom-navbar .navbar-brand {
+            font-size: 1.2rem; /* Küçük ekranlarda marka boyutunu küçült */
+        }
+    
+        .custom-navbar .nav-link {
+            font-size: 0.9rem; /* Yazı boyutunu biraz küçült */
+        }
+    
+        .search-box {
+            font-size: 0.85rem;
+        }
+    
+        .btn-search {
+            font-size: 0.85rem;
+        }
+    
+        .pagination .page-link {
+            font-size: 0.8rem; /* Daha küçük sayfalama yazıları */
+        }
+    }
+    
+    /* Navbar toggle button adjustments */
+    @media (max-width: 768px) {
+
+        .navbar-collapse {
+            padding: 10px;
+        }
+    }
+
+}
+    
+
