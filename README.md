@@ -1,31 +1,68 @@
-# Laravel-blog-page
-
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 
-mal amk
+## Introduction
+
+Laravel ile geliştirilmiş bir kişisel blog sayfası. Proje ana sayfa, gönderi sayfaları, hakkında ve developer bölümlerinden oluşmaktadır. Database olarak MySQL tercih edilmiştir. 
+
+Genel kullanıcının erişebildiği sayfalar;
+
+### Home Page
+![](githubImages/homePage.jpg)
+Bütün kullancılar tarafından erişilebilir, gönderilerden oluşan sayfa. Kullanıcının dilediği gönderiyi arama fonksiyonu, gönderileri sıralama fonksiyonları vardır.
+
+### Post Page
+![](githubImages/Postlar.jpg)
+Kullanıcı dostu bir gönderi sayfası düzenlenmiştir.
+
+### About Page
+![](githubImages/AboutPage.jpg)
+Sayfa ve yöneticiler hakkında sunulan bilgilerin bulunduğu sayfa.
+
+## Admin Pages
+
+### Developer Login Page
+![](githubImages/DeveloperLoginPage.jpg)
+Giriş için gerekli boşlukların istenilen şekilde doldurulduktan sonra gerekli authentication işlemleri yapılmaktadır.
+
+
+### Dashboard
+![](githubImages/Dashboard.jpg)
+Yetkili kişinin gönderi oluşturabildiği, gönderi istatistiklerini görebildiği ve tabi ki çıkış yapabildiği sayfadır.
+
+### Create Post
+![](githubImages/CreatePost.jpg)
+İhtiyaç duyulan alanlar doldurultuktan sonra gönderi eklenilen bölüm.
+
+### Update Post
+![](githubImages/UpdatePost.jpg)
+Gönderi de güncelleme yapmak için giriş yapıldıktan sonra home page de ekrana gelen düzenle butonları kullanılmaktadır;
+![](githubImages/Admin Girişi Sonrası.jpg)
+Güncelleme sırasında resim değiştirme esnasında güncel ve eski resim gösterilerek kullanıcı dostu olmaya bir adım daha atılmıştır.
+![](githubImages/UpdatePost güncel ve yüklenen resim.jpg)
+
+
+## In the Feature
+1. **Kullanıcı (Admin Olmayan) Girişi**
+   - Kullanıcıların kendi hesaplarını oluşturabilmesi.
+   - Güvenli giriş yapabilmesi.
+
+2. **Gönderilere Kullanıcı Yorumları Eklenmesi**
+   - Kullanıcıların gönderiler altına yorum bırakabilmesi.
+   - Admin onayı gerektiren bir yorum sistemi opsiyonu.
+   - Nested comments (yorumlara yanıt verme) desteği.
+
+3. **Kullanıcıların Kendi Blog Yazılarını Oluşturabilmesi**
+   - Kullanıcılar için gönderi oluşturma ve düzenleme alanı.
+   - Kullanıcı gönderilerinin admin onayından geçmesi.
+   - Kullanıcı profil sayfasında, kendi yazılarını görüntüleme ve yönetme fonksiyonları.
+
+---
+
+
+
+
+
+
+
+
+
