@@ -36,9 +36,9 @@ Yetkili kişinin gönderi oluşturabildiği, gönderi istatistiklerini görebild
 ### Update Post
 ![](githubImages/UpdatePost.jpg)
 Gönderi de güncelleme yapmak için giriş yapıldıktan sonra home page de ekrana gelen düzenle butonları kullanılmaktadır;
-![](githubImages/Admin Girişi Sonrası.jpg)
+![](githubImages/AdminLogin.jpg)
 Güncelleme sırasında resim değiştirme esnasında güncel ve eski resim gösterilerek kullanıcı dostu olmaya bir adım daha atılmıştır.
-![](githubImages/UpdatePost güncel ve yüklenen resim.jpg)
+![](githubImages/NewImageAndOldOne.jpg)
 
 
 ## In the Feature
