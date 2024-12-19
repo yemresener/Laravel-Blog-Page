@@ -8,36 +8,46 @@ Genel kullanıcının erişebildiği sayfalar;
 
 ### Home Page
 ![](githubImages/homePage.jpg)
+
 Bütün kullancılar tarafından erişilebilir, gönderilerden oluşan sayfa. Kullanıcının dilediği gönderiyi arama fonksiyonu, gönderileri sıralama fonksiyonları vardır.
 
 ### Post Page
 ![](githubImages/Postlar.jpg)
+
 Kullanıcı dostu bir gönderi sayfası düzenlenmiştir.
 
 ### About Page
 ![](githubImages/AboutPage.jpg)
+
 Sayfa ve yöneticiler hakkında sunulan bilgilerin bulunduğu sayfa.
 
 ## Admin Pages
 
 ### Developer Login Page
 ![](githubImages/DeveloperLoginPage.jpg)
+
 Giriş için gerekli boşlukların istenilen şekilde doldurulduktan sonra gerekli authentication işlemleri yapılmaktadır.
 
 
 ### Dashboard
 ![](githubImages/Dashboard.jpg)
+
 Yetkili kişinin gönderi oluşturabildiği, gönderi istatistiklerini görebildiği ve tabi ki çıkış yapabildiği sayfadır.
 
 ### Create Post
 ![](githubImages/CreatePost.jpg)
+
 İhtiyaç duyulan alanlar doldurultuktan sonra gönderi eklenilen bölüm.
 
 ### Update Post
 ![](githubImages/UpdatePost.jpg)
+
 Gönderi de güncelleme yapmak için giriş yapıldıktan sonra home page de ekrana gelen düzenle butonları kullanılmaktadır;
+
 ![](githubImages/AdminLogin.jpg)
+
 Güncelleme sırasında resim değiştirme esnasında güncel ve eski resim gösterilerek kullanıcı dostu olmaya bir adım daha atılmıştır.
+
 ![](githubImages/NewImageAndOldOne.jpg)
 
 
